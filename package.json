@@ -1,0 +1,25 @@
+{
+  "name": "quick-chat",
+  "version": "1.0.0",
+  "description": "Quick Chat - a real-time chat app (React, Socket.io, Express, MongoDB)",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend",
+    "start": "npm run start --prefix Backend",
+    "test": "npm test --prefix Backend",
+    "dev:backend": "npm run dev --prefix Backend",
+    "dev:frontend": "npm run dev --prefix Frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danush242211ay/Quick-Chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danush242211ay/Quick-Chat/issues"
+  },
+  "homepage": "https://github.com/danush242211ay/Quick-Chat#readme"
+}
